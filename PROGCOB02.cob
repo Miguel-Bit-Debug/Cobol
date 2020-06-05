@@ -1,0 +1,16 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. PROGCOB02.
+      ********************************************
+      * AREA DE COMENTARIOS - REMARKS
+      * AUTHOR - MIGUEL DOS SANTOS RIBEIRO MISANRI
+      * OBJETIVO: RECEBER E IMPRIMIR VARIAVEL
+      * DATA 04/06/2020
+      ********************************************
+       ENVIRONMENT DIVISION.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       77 WRK-NOME PICTURE X(20) VALUE SPACES.
+       PROCEDURE DIVISION.
+           ACCEPT WRK-NOME FROM CONSOLE.
+           DISPLAY 'NOME DIGITADO: ' WRK-NOME.
+           STOP RUN.
